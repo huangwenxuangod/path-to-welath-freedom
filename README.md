@@ -24,6 +24,7 @@
 | **[Flash-Recoder](项目/Flash-Recoder/README.md)** | 🛡️ 技术护城河 | 桌面端自动化录制工具 | 后台无感录制、Time-lapse 生成 |
 | **[Flash-Translate](项目/Flash-Translate/README.md)** | 📡 技术广度 | 安卓端实时语音翻译 | 悬浮窗、低延迟语音识别 |
 | **[MyMind](项目/MyMind/README.md)** | 🧠 个人知识库 | 防遗忘提醒与灵感捕捉 | 第二大脑、闪念胶囊 |
+| **[GitHub-Paste-Plugin](项目/GitHub-Paste-Plugin/README.md)** | 🛠️ 效率神器 | VS Code 图床插件 | 自动上传 GitHub + jsDelivr 加速 |
 
 ### 2. [随记 (Notes)](随记/README.md) ✍️
 这里是我的**思考沉淀**与**灵感碎片**。
