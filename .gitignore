@@ -6,6 +6,9 @@
 # 排除包含 Token 的 settings.json
 .vscode/settings.json
 
+.baoyu-skills
+.obsidian
+.claude
 # 系统文件
 .DS_Store
 Thumbs.db
