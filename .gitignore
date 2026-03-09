@@ -6,9 +6,12 @@
 # 排除包含 Token 的 settings.json
 .vscode/settings.json
 
+# 自定义文件
 .baoyu-skills
 .obsidian
 .claude
+.smart-env
+
 # 系统文件
 .DS_Store
 Thumbs.db
