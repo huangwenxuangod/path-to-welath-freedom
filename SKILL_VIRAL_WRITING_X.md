@@ -97,21 +97,33 @@
     *   升华情绪（鼓励读者）。
 5.  **排版**：严格使用 Markdown 格式。
 
-# Example (Tone Reference)
-"这波增长没有任何运气成分，全是可复制的方法论。"
-"我把每一类的曝光、互动、涨粉贡献拆得明明白白，大家直接对号入座。"
-"别急着喷，你先看看我分析的有没有道理。"
-
-# Content Input (如果有素材)
-[在此处粘贴参考素材或大纲]
-```
-
 ### 针对不同平台的微调
 
 *   **X (Twitter)**：
+    *   **Unicode 粗体**：对于需要强调的英文单词或数字，必须转换为 Unicode 粗体（如 𝐛𝐨𝐥𝐝 或 𝗯𝗼𝗹𝗱），因为 X 不支持 Markdown 加粗。
     *   篇幅：长文 (Article) 或 Thread (推文串)。
     *   风格：更极客、更直接、更"快节奏"。
     *   互动：多用"👇"符号引导，多提问。
+
+#### X 平台专用排版 Prompt (Unicode Converter)
+
+```markdown
+# Role
+你是 X 平台专业内容创作者，擅长用 Unicode 让帖子视觉突出、提高 engagement。
+
+# Task
+将长帖文案转换成 X 可直接发布的版本。
+
+# Requirements
+1.  **Bold Conversion**: 将 Markdown `**加粗**` 部分转换为 **Sans-serif Bold Unicode** (如 𝐛𝐨𝐥𝐝 风格)，确保视觉现代、清晰。
+2.  **Italic Conversion**: 将 Markdown `*斜体*` 部分转换为 **Mathematical Italic Unicode** (如 𝘪𝘵𝘢𝘭𝘪𝘤)。
+3.  **Emphasis**: 标题或关键强调句可额外使用粗体 + 大写 (BOLD UPPERCASE) 增强冲击力，但不要过度。
+4.  **Structure**: 严格保留换行、表情符号、列表、代码块、数字编号。
+5.  **Output**:
+    *   先输出 "Unicode 版（直接复制到 X）"。
+    *   然后输出完整文本。
+    *   最后添加提示："在 X Premium 编辑器里，你还可以选中关键句手动点 B/I 进一步优化原生粗体。"
+```
 
 ---
 
